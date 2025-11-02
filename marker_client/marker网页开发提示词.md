@@ -1,0 +1,11 @@
+
+有个pdf转markdown的项目叫marker，官方项目地址是https://github.com/datalab-to/marker
+这个项目部署后有个marker_server命令，执行marker_server命令会启动一个web server,提供了一些接口。
+接口文档在parser/demo/markerserver_openapi.json中。
+我针对其中的/marker/upload接口开发了一个脚本parser/marker.py，可以上传本地文件到远程的接口中获得markdown文件和图片。
+一些人不满足于使用脚本，而是想要一个web页面来上传文件，
+需要我实现一个html，只要配置远端的marker server的ip和端口，就能够将本地文件拖拽到网页框中，或者点击按钮上传文件。
+pdf转换markdown的时间很长，可以打印一些日志，或者marker项目转换时的进度条。然后将获得的markdown文件和图片打包成与文件同名的zip包，放在html的同级目录中，点击下载按钮可以下载。
+html会显示有哪些转换结果zip文件，每个zip文件右边有下载和删除两个按钮，点击删除按钮会删除html同级目录下的zip文件，点击下载可以将zip文件下载到用户电脑中。
+如果用户上传的文件与转换结果中的zip包同名，会提示已经转换过了，不再重复转换。请先删除已有结果再重新转换的提示框。
+根据以上内容，在parser/demo目录中生成我要的html和其他必要文件。请开始编程吧！

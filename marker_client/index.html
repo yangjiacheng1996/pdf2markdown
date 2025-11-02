@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF转Markdown转换器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PDF转Markdown转换器</h1>
+            <p>使用Marker Server将PDF文件转换为Markdown格式</p>
+        </header>
+
+        <!-- 服务器配置区域 -->
+        <div class="config-section">
+            <h2>服务器配置</h2>
+            <div class="config-form">
+                <div class="form-group">
+                    <label for="serverUrl">Marker Server地址:</label>
+                    <input type="text" id="serverUrl" placeholder="http://localhost:8001" value="http://localhost:8001">
+                    <button id="testConnection" class="btn btn-secondary">测试连接</button>
+                </div>
+                <div class="form-group">
+                    <label for="forceOcr">强制OCR:</label>
+                    <select id="forceOcr">
+                        <option value="false">否</option>
+                        <option value="true">是</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="outputFormat">输出格式:</label>
+                    <select id="outputFormat">
+                        <option value="markdown" selected>Markdown</option>
+                        <option value="json">JSON</option>
+                        <option value="html">HTML</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 文件上传区域 -->
+        <div class="upload-section">
+            <h2>上传PDF文件</h2>
+            <div id="dropZone" class="drop-zone">
+                <div class="drop-zone-content">
+                    <i class="upload-icon">📁</i>
+                    <p>拖拽PDF文件到此处，或点击选择文件</p>
+                    <input type="file" id="fileInput" accept=".pdf" multiple>
+                    <label for="fileInput" class="btn btn-primary">选择文件</label>
+                </div>
+            </div>
+            <div id="fileList" class="file-list"></div>
+        </div>
+
+        <!-- 转换进度区域 -->
+        <div id="progressSection" class="progress-section" style="display: none;">
+            <h2>转换进度</h2>
+            <div id="progressContainer" class="progress-container">
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <div id="progressText" class="progress-text">准备开始...</div>
+            </div>
+            <div id="logContainer" class="log-container">
+                <div id="logContent" class="log-content"></div>
+            </div>
+        </div>
+
+        <!-- 转换结果区域 -->
+        <div class="results-section">
+            <h2>转换结果</h2>
+            <div id="resultsList" class="results-list">
+                <p id="noResults" class="no-results">暂无转换结果</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 模态对话框 -->
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">提示</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p id="modalMessage"></p>
+            </div>
+            <div class="modal-footer">
+                <button id="modalConfirm" class="btn btn-primary">确定</button>
+                <button id="modalCancel" class="btn btn-secondary">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,2012 @@
+[
+    {
+        "type": "text",
+        "text": "工程技术标准",
+        "text_level": 1,
+        "bbox": [
+            405,
+            227,
+            593,
+            250
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "深圳证券交易所跨深沪港股票ETF业务之券商技术系统变更指南(Ver1.0)",
+        "text_level": 1,
+        "bbox": [
+            166,
+            303,
+            836,
+            445
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/302b5afd56f4bf13ecbceb89fe209b9d88659c16a4b40d230b34f780d937d70b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            359,
+            523,
+            647,
+            708
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "深圳证券交易所中国结算深圳分公司",
+        "bbox": [
+            376,
+            807,
+            621,
+            862
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "二〇二〇九月",
+        "bbox": [
+            416,
+            872,
+            576,
+            894
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所SHENZHEN STOCK EXCHANGE ",
+        "bbox": [
+            124,
+            109,
+            272,
+            148
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "#",
+        "bbox": [
+            277,
+            91,
+            337,
+            137
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所工程技术文档",
+        "bbox": [
+            359,
+            173,
+            628,
+            191
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/9a39d329fd8fe9f90538c69115424834f0b0b82395b3d5cd663b90e88d22f25e.jpg",
+        "table_caption": [
+            "关于本文档"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\">文档名称</td><td colspan=\"3\">深圳证券交易所跨深沪港股票ETF业务之券商技术系统变更指南</td></tr><tr><td colspan=\"2\">说明</td><td colspan=\"3\">为券商等相关单位进行跨深沪港股票ETF相关技术准备工作的指 南</td></tr><tr><td colspan=\"5\">修订历史</td></tr><tr><td>日期</td><td colspan=\"2\">版本</td><td>操作</td><td>说明</td></tr><tr><td>2020-09-21</td><td colspan=\"2\">V1.0</td><td></td><td>初始版本</td></tr></table>",
+        "bbox": [
+            115,
+            154,
+            897,
+            350
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所SHENZHEN STOCK EXCHANGE ",
+        "bbox": [
+            157,
+            58,
+            273,
+            80
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            423,
+            55,
+            586,
+            74
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "- I -",
+        "bbox": [
+            783,
+            64,
+            830,
+            73
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            141,
+            914,
+            248,
+            926
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            332,
+            913,
+            836,
+            928
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "目录",
+        "text_level": 1,
+        "bbox": [
+            463,
+            95,
+            537,
+            116
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "一、说明",
+        "text_level": 1,
+        "bbox": [
+            147,
+            145,
+            850,
+            162
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "二、业务简介 1",
+        "text_level": 1,
+        "bbox": [
+            147,
+            170,
+            850,
+            187
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "2.1 跨深沪港股票 ETF 产品的定义 ..... 1",
+            "2.2 跨深沪港股票 ETF 的认购 1",
+            "2.3 跨深沪港股票ETF的交易 1",
+            "2.4 跨深沪港股票 ETF 的申赎 1",
+            "2.5 跨深沪港股票ETF的登记及相关业务 2"
+        ],
+        "bbox": [
+            169,
+            192,
+            847,
+            290
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三、业务实现概况 2",
+        "text_level": 1,
+        "bbox": [
+            147,
+            299,
+            850,
+            315
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "四、清算交收 2",
+        "text_level": 1,
+        "bbox": [
+            147,
+            324,
+            850,
+            340
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "4.1 接口修订概述 2",
+            "4.2清算明细库SJSMXn.DBF 3",
+            "4.3 明细结果库SJSJG.DBF 6",
+            "4.4 资金清算汇总库SJSQS.DBF 8",
+            "4.5 资金变动库 SJSZJ.DBF. 9"
+        ],
+        "bbox": [
+            169,
+            347,
+            847,
+            444
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "五、跨深沪港ETF申赎模式优化上线切换指引 9",
+        "text_level": 1,
+        "bbox": [
+            147,
+            453,
+            850,
+            469
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "5.1 交易数据接口切换调整 9",
+            "5.2 结算数据接口切换调整 10",
+            "5.3业务暂停事项 10"
+        ],
+        "bbox": [
+            169,
+            475,
+            847,
+            531
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "六、联系方式 10",
+        "text_level": 1,
+        "bbox": [
+            147,
+            539,
+            850,
+            556
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所SHENZHEN STOCK EXCHANGE ",
+        "bbox": [
+            164,
+            61,
+            270,
+            80
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            423,
+            55,
+            586,
+            74
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "- II -",
+        "bbox": [
+            783,
+            63,
+            840,
+            74
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            141,
+            913,
+            248,
+            927
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            332,
+            912,
+            838,
+            928
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "深圳证券交易所跨深沪港股票ETF业务之券商技术系",
+        "text_level": 1,
+        "bbox": [
+            141,
+            105,
+            853,
+            131
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "统变更指南",
+        "text_level": 1,
+        "bbox": [
+            421,
+            155,
+            574,
+            180
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "说明",
+        "text_level": 1,
+        "bbox": [
+            161,
+            228,
+            295,
+            246
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "为方便市场参与各方更好地完成“跨深沪港股票ETF产品”相关技术准备工作，深圳证券交易所（以下简称“深交所”）联合中国证券登记结算有限责任公司（以下简称“中国结算”）深圳分公司，制定本文档，供交易参与人和结算参与人及其IT供应商变更技术系统时参考。",
+        "bbox": [
+            137,
+            258,
+            858,
+            357
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "深交所改造系统的宗旨：从技术上保障证券市场安全运行，同时，尽量减少系统改造对市场参与者带来的影响。",
+        "bbox": [
+            137,
+            368,
+            857,
+            412
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "特别提示：如果业务规则及业务方案有所变更，本文档将做相应变更。",
+        "bbox": [
+            174,
+            423,
+            796,
+            441
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "二、业务简介",
+        "text_level": 1,
+        "bbox": [
+            161,
+            473,
+            344,
+            492
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.1 跨深沪港股票ETF产品的定义",
+        "text_level": 1,
+        "bbox": [
+            184,
+            505,
+            521,
+            521
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "跨深沪港股票ETF，即跟踪股票指数成份证券包括深沪港交易所上市股票的ETF。跨深沪港股票ETF为跨市场股票ETF的特殊类型。",
+        "bbox": [
+            136,
+            532,
+            858,
+            576
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.2 跨深沪港股票ETF的认购",
+        "text_level": 1,
+        "bbox": [
+            184,
+            587,
+            480,
+            604
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "跨深沪港股票ETF可以采用网上现金认购、网下现金认购及网下组合证券认购三种方式。网上现金认购采用目前LOF的连续发行系统处理；网下现金认购由基金管理人组织办理；网下组合证券认购则由基金管理人参照现有跨市场股票ETF网下组合证券认购流程，向中国结算总部基金部申请以深沪组合证券（但不包括港市组合证券）办理认购过户。",
+        "bbox": [
+            137,
+            614,
+            858,
+            741
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.3 跨深沪港股票ETF的交易",
+        "text_level": 1,
+        "bbox": [
+            184,
+            751,
+            470,
+            768
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "跨深沪港股票ETF的交易，采用多边净额担保交收模式。",
+        "bbox": [
+            174,
+            778,
+            678,
+            796
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.4 跨深沪港股票ETF的申赎",
+        "text_level": 1,
+        "bbox": [
+            184,
+            806,
+            473,
+            822
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "跨深沪港股票ETF的组合证券包括深沪港交易所上市股票，其中深市组合证",
+        "bbox": [
+            174,
+            833,
+            858,
+            850
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所\nCHINASECURITIES EXCHANGE",
+        "bbox": [
+            159,
+            52,
+            268,
+            76
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            413,
+            59,
+            576,
+            79
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "第1页共10页",
+        "bbox": [
+            712,
+            65,
+            838,
+            78
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_footnote",
+        "text": "1目前港市组合证券主要是指港股通标的组合证券。下同",
+        "bbox": [
+            137,
+            890,
+            515,
+            904
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            139,
+            913,
+            250,
+            927
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            685,
+            928
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            727,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "券部分采用实物申赎，非深市组合证券部分（沪市组合证券及港市组合证券部分）均采用全额现金替代申赎，上述申赎涉及的对价采用的结算安排为：",
+        "bbox": [
+            137,
+            101,
+            848,
+            146
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "a、申购赎回涉及的ETF份额、深市组合证券及其现金替代、沪市组合证券的现金替代，以及申购涉及的港市组合证券的现金替代，均采用多边净额担保交收模式；",
+            "b、赎回涉及的港市组合证券的现金替代，以及申购赎回涉及的现金差额、现金替代退补款，则采用代收代付模式。"
+        ],
+        "bbox": [
+            136,
+            156,
+            855,
+            284
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "注：中国结算总部TA系统不对跨深沪港股票ETF开通场外申购赎回权限。",
+        "bbox": [
+            173,
+            293,
+            833,
+            309
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.5 跨深沪港股票ETF的登记及相关业务",
+        "text_level": 1,
+        "bbox": [
+            184,
+            319,
+            574,
+            338
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "跨深沪港股票ETF的登记及相关业务，如分红派息、股东名册、质押登记、非交易过户、司法协助等，处理方式均与跨市场股票ETF相同。",
+        "bbox": [
+            137,
+            348,
+            847,
+            392
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "三、 业务实现概况",
+        "text_level": 1,
+        "bbox": [
+            161,
+            426,
+            391,
+            445
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "跨深沪港股票ETF产品的证券类别为跨市场股票ETF（类别代码：15），相关PCF文件格式、委托/回报接口、处理方式同现有跨市场股票ETF。",
+        "bbox": [
+            136,
+            457,
+            855,
+            501
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "对于跨市场股票ETF的PCF文件（“静态交易参考信息”的“ETF实时申购赎回业务参考信息”）中虚拟成份证券159900记录的申购替代金额字段表示所有非深市成份证券现金替代的总金额（如对于包含深市成份证券、沪市成份证券及港股通标的的跨市场股票ETF，则申购替代金额表示沪市成份证券及港股通标的现金替代总金额）；159900的赎回替代金额字段，表示所有沪市成份证券现金替代的总金额(如对于包含深市成份证券、沪市成份证券及港股通标的的跨市场股票ETF，则赎回替代金额表示沪市成份证券的现金替代总金额)。",
+        "bbox": [
+            136,
+            512,
+            857,
+            693
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "四、清算交收",
+        "text_level": 1,
+        "bbox": [
+            161,
+            726,
+            344,
+            745
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.1 接口修订概述",
+        "text_level": 1,
+        "bbox": [
+            184,
+            758,
+            371,
+            774
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1) 跨深沪港股票 ETF 产品归入跨市场  $\\mathrm{ETF}^{2}$ , 采用与跨市场股票 ETF 相同的 ETF 子类别, 证券类别编码为 ‘EF’, 证券子类别编码为 ‘3’。其中证券类别及证券子类别含义可查看《深市登记结算数据接口规范 (结算参与人版)》附件二",
+        "bbox": [
+            136,
+            785,
+            857,
+            858
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所\nCHINASECURITIES EXCHANGE",
+        "bbox": [
+            159,
+            52,
+            268,
+            76
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            413,
+            59,
+            576,
+            78
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "第2页共10页",
+        "bbox": [
+            712,
+            65,
+            838,
+            78
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_footnote",
+        "text": "2跨市场ETF目前主要有两类ETF，即现有跨市场股票ETF和跨深沪港股票ETF。跨市场ETF包含深市、沪市、港市的组合对价物，现有跨市场股票ETF仅有深沪两市的组合对价物。",
+        "bbox": [
+            136,
+            876,
+            845,
+            904
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            139,
+            913,
+            250,
+            927
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            685,
+            928
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            727,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "“证券类别子类含义表”，或查看 SJSGB.DBF 中 GBLB 为 ‘ZL’ 及 ‘ZZ’ 的数据。",
+        "bbox": [
+            144,
+            102,
+            845,
+            118
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/ccec71eadd10acf33200bc4e4d02dc5b947c099601a40b06a8c1fd6e5a86767b.jpg",
+        "table_caption": [
+            "证券类别子类含义表"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>证券类别</td><td>证券子类</td><td>子类简称</td></tr><tr><td>EF</td><td>3</td><td>跨市场 ETF</td></tr></table>",
+        "bbox": [
+            282,
+            152,
+            751,
+            212
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "(2）跨深沪港股票ETF认购的处理，与现有跨市场ETF相同。",
+            "(3) 跨深沪港股票 ETF 交易的处理，与现有跨市场 ETF 相同。",
+            "（4）跨深沪港股票ETF申赎的处理，除了增加对赎回涉及的港市组合证券的现金替代进行代收代付处理外，其他处理与现有跨市场ETF相同。具体详细见4.2~4.5章节的说明。",
+            "(5) 跨深沪港股票 ETF 登记及相关业务的处理（如分红派息、股东名册、质押登记、非交易过户、司法协助等），均与现有跨市场股票 ETF 相同。"
+        ],
+        "bbox": [
+            136,
+            219,
+            855,
+            401
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2 清算明细库 SJSMXn.DBF",
+        "text_level": 1,
+        "bbox": [
+            184,
+            411,
+            477,
+            426
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2.1 SJSMX1.DBF",
+        "text_level": 1,
+        "bbox": [
+            184,
+            439,
+            369,
+            455
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1) SJSMX1.DBF 中, 跨深沪港股票 ETF 的实物申购份额 (SGSF)、实物申购现金替代 (SGSZ)、实物申购组合券 (SGSQ)、实物赎回份额 (SHSF)、实物赎回现金替代 (SHSZ)、实物赎回组合券 (SHSQ), 采用与现有跨市场 ETF 相同的处理方式。业务类别含义参见下表:",
+        "bbox": [
+            136,
+            464,
+            855,
+            564
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/7c9a0189cc1a3b943550ad0168c29c59ac2e2277df813e4dcdb3b1973d6d8407.jpg",
+        "table_caption": [
+            "SJSMX1.DBF业务类别含义表"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>业务类别</td><td>业务类别含义</td></tr><tr><td>SGSF</td><td>实物申购份额，包括单市场ETF、实物债券ETF、跨市场ETF</td></tr><tr><td>SGSZ</td><td>实物申购现金替代，包括单市场ETF、实物债券ETF、跨市场ETF</td></tr><tr><td>SGSQ</td><td>实物申购组合券，包括单市场ETF、实物债券ETF、跨市场ETF</td></tr><tr><td>SHSF</td><td>实物赎回份额，包括单市场ETF、实物债券ETF、跨市场ETF</td></tr><tr><td>SHSZ</td><td>实物赎回现金替代，包括单市场ETF、实物债券ETF、跨市场ETF</td></tr><tr><td>SHSQ</td><td>赎回回组合券，包括单市场ETF、实物债券ETF、跨市场ETF</td></tr></table>",
+        "bbox": [
+            178,
+            596,
+            818,
+            854
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "跨市场ETF实物申赎现金替代的说明：",
+        "bbox": [
+            174,
+            862,
+            515,
+            878
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所\n股票代码：002168股票简称：ST鑫通公告编号：2023-049",
+        "bbox": [
+            159,
+            52,
+            268,
+            74
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            413,
+            59,
+            576,
+            79
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "第3页共10页",
+        "bbox": [
+            712,
+            65,
+            838,
+            78
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            139,
+            913,
+            248,
+            927
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            682,
+            928
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            727,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "1）SGSZ实物申购现金替代中，159900虚拟组合券记录表示非深市（即沪港两市）组合券现金替代的总金额。",
+            "2）SHSZ实物赎回现金替代中，159900虚拟组合券记录仅表示沪市组合券的替代金额。"
+        ],
+        "bbox": [
+            137,
+            102,
+            855,
+            200
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "注：基金管理人于  $\\mathrm{T} + \\mathrm{N}$  日，通过D-COM上传港市组合券赎回现金替代，相关代收付清算明细在当日SJSMX2.DBF的业务类别SHDZ中体现。",
+        "bbox": [
+            137,
+            211,
+            855,
+            256
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.2.2 SJSMX2.DBF",
+        "text_level": 1,
+        "bbox": [
+            184,
+            266,
+            371,
+            282
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "（1）SJSMX2.DBF中，跨深沪港股票ETF申赎的税费（SGFY、SHFY）、现金差额（EFXC）、多退少补（EFTB），采用与现有跨市场ETF相同的处理方式。",
+        "bbox": [
+            137,
+            293,
+            855,
+            338
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/e1cc311700a1b0e5432bb9132256e643e3c6f268c31f7256d59d4eb45d9c742a.jpg",
+        "table_caption": [
+            "SJSMX2.DBF业务类别含义表"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>业务类别</td><td>业务类别含义</td></tr><tr><td>SGFY</td><td>ETF 申购税费、组合券过户费</td></tr><tr><td>SHFY</td><td>ETF 赎回税费、组合券过户费</td></tr><tr><td>SGDZ</td><td>通过中国结算总部申购的 ETF 现金替代</td></tr><tr><td>SHDZ</td><td>ETF 实物赎回现金替代-代收代付（包括通过中国结算总部赎回的 ETF 现金替代以及跨市场 ETF 港市组合券赎回现金替代）</td></tr><tr><td>EFXC</td><td>ETF 申购赎回现金差额</td></tr><tr><td>EFTB</td><td>ETF 申购赎回现金替代多退少补</td></tr></table>",
+        "bbox": [
+            213,
+            370,
+            786,
+            550
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(2) SJSMX2.DBF 中, 跨深沪港股票 ETF 赎回港市组合券现金替代通过 SHDZ 体现, 其交易方式 (MXJYFS 字段) 为 03 (表示经深交所申报的非交易业务)。含义修改如下表:",
+        "bbox": [
+            136,
+            588,
+            855,
+            659
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/78d0df981ec61a9268bc07d1098a3e8687510ca613c00237d7e4cb34ae7c4683.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\">字段名</td><td colspan=\"2\">业务类别</td></tr><tr><td>SGDZ(ETF 实物申购现金替代-代收代付(包括通过中国结算总部申购的 ETF 现金替代))</td><td>SHDZ(ETF 实物赎回现金替代-代收代付(包括通过中国结算总部赎回的 ETF 现金替代以及跨市场 ETF 港市组合券赎回现金替代)</td></tr><tr><td>MXJSZH</td><td>结算账号</td><td>结算账号</td></tr><tr><td>MXBFZH</td><td>备付金账户</td><td>备付金账户</td></tr><tr><td>MXSJLX</td><td>‘01'</td><td>‘01'</td></tr><tr><td>MXYWLB</td><td>'SGDZ'</td><td>'SHDZ'</td></tr><tr><td>MXZQDM</td><td>ETF 代码</td><td>ETF 代码</td></tr><tr><td>MXJYDY</td><td>交易单元</td><td>交易单元</td></tr><tr><td>MXTGDY</td><td>托管单元</td><td>托管单元</td></tr><tr><td>MXZQZH</td><td>证券账户</td><td>证券账户</td></tr><tr><td>MXDDBH</td><td>订单编号</td><td>订单编号</td></tr><tr><td>MXYYB</td><td>营业部代码</td><td>营业部代码</td></tr><tr><td>MXZXBH</td><td></td><td>执行编号(仅跨市场 ETF 港市组合券赎回现金替代填写)</td></tr><tr><td>MXYWLSH</td><td>业务流水号</td><td>业务流水号</td></tr><tr><td>MXCJSL</td><td></td><td></td></tr><tr><td>MXQSSL</td><td></td><td></td></tr><tr><td>MXCJJG</td><td></td><td></td></tr><tr><td>MXQSJJG</td><td></td><td></td></tr><tr><td>MXXYJY</td><td></td><td></td></tr><tr><td>MXPCBS</td><td></td><td></td></tr><tr><td>MXZQLB</td><td>‘EF’</td><td>‘EF’</td></tr><tr><td>MXZQZL</td><td>证券子类别</td><td>证券子类别</td></tr><tr><td>MXGFXZ</td><td></td><td></td></tr><tr><td>MXJSFS</td><td>‘Z’</td><td>‘Z’</td></tr><tr><td>MXHBDH</td><td>货币代号</td><td>货币代号</td></tr><tr><td>MXQSBJ</td><td>负数,应付申购现金替代</td><td>正数,应收赎回现金替代</td></tr><tr><td>MXYHS</td><td></td><td></td></tr><tr><td>MXJYJSF</td><td></td><td></td></tr><tr><td>MXJGGF</td><td></td><td></td></tr><tr><td>MXGHF</td><td></td><td></td></tr><tr><td>MXJSF</td><td></td><td></td></tr><tr><td>MXSXF</td><td></td><td></td></tr><tr><td>MXQSYJ</td><td></td><td></td></tr><tr><td>MXQTFY</td><td></td><td></td></tr><tr><td>MXZJJE</td><td></td><td></td></tr><tr><td>MXSFJE</td><td>负数,应付申购现金替代</td><td>正数,应收赎回现金替代</td></tr><tr><td>MXCJRQ</td><td>成交日期</td><td>成交日期</td></tr><tr><td>MXQSRQ</td><td>T 日</td><td>T 日</td></tr><tr><td>MXJSRQ</td><td>T+1 日</td><td>T+1 日</td></tr><tr><td>MXFSRQ</td><td>T 日</td><td>T 日</td></tr><tr><td>MXQTRQ</td><td></td><td></td></tr><tr><td>MXSCDM</td><td></td><td></td></tr><tr><td>MXJYFS</td><td>‘05’</td><td>‘05'或‘03'</td></tr><tr><td>MXZQDM2</td><td>组合券代码(若基金公司不提供,可能为空)</td><td>组合券代码(若基金公司不提供,可能为空)</td></tr><tr><td>MXTGDY2</td><td></td><td></td></tr><tr><td>MXDDBH2</td><td></td><td></td></tr><tr><td>MXCWDH</td><td></td><td></td></tr><tr><td>MXPPHM</td><td></td><td></td></tr><tr><td>MXFJSM</td><td></td><td></td></tr><tr><td>MXBYBZ</td><td></td><td></td></tr></table>",
+        "bbox": [
+            186,
+            661,
+            811,
+            887
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所\n股票代码：002168股票简称：ST鑫通公告编号：2023-049",
+        "bbox": [
+            159,
+            52,
+            268,
+            74
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            413,
+            59,
+            576,
+            79
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "第4页共10页",
+        "bbox": [
+            712,
+            65,
+            838,
+            78
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            139,
+            913,
+            250,
+            927
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            685,
+            928
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            727,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            184,
+            92,
+            811,
+            897
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所：SHENZHEN STOCK EXCHANGE ",
+        "bbox": [
+            161,
+            55,
+            236,
+            74
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "#",
+        "bbox": [
+            240,
+            53,
+            268,
+            72
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            415,
+            59,
+            576,
+            78
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "第5页共10页",
+        "bbox": [
+            712,
+            65,
+            838,
+            78
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            141,
+            913,
+            248,
+            927
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            685,
+            928
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            727,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            186,
+            91,
+            811,
+            212
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "4.3 明细结果库SJSJG.DBF",
+        "text_level": 1,
+        "bbox": [
+            184,
+            219,
+            458,
+            237
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(1) 跨深沪港股票 ETF 申赎代收代付业务的交收结果在 SJSJG 中体现，涉及的业务类别含义如下表：",
+        "bbox": [
+            137,
+            247,
+            855,
+            290
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/5020dc914617c91b5a7852292e17c8e7b62788508409b64051f7f1b114be9f7d.jpg",
+        "table_caption": [
+            "SJSJG.DBF业务类别表"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>接口业务\n类别</td><td>业务类别含义</td></tr><tr><td>SHDZ</td><td>ETF 实物赎回现金替代-代收代付（包括通过中国结算总部赎回的ETF现金替代以及跨市场ETF港市组合券赎回现金替代）</td></tr><tr><td>EFXC</td><td>ETF申购赎回现金差额</td></tr><tr><td>EFTB</td><td>ETF申购赎回现金替代多退少补</td></tr></table>",
+        "bbox": [
+            240,
+            324,
+            721,
+            482
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(2)SJSJG.DBF中,跨深沪港股票ETF赎回港市成份证券现金替代通过SHDZ体现,其交易方式(JGJYFS字段)为03(表示经深交所申报的非交易业务),含义修改如下表:",
+        "bbox": [
+            136,
+            489,
+            857,
+            558
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/b885371ddf045393b2d0f787ba20d86a0db3e1fc97d56ee172ae3a8598345e06.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\">字段名</td><td colspan=\"2\">业务类别</td></tr><tr><td>SGDZ (ETF 实物申购现金替代-代收代付(包括通过中国结算总部申购的 ETF 现金替代))</td><td>SHDZ (ETF 实物赎回现金替代-代收代付(包括通过中国结算总部赎回的 ETF 现金替代以及跨市场 ETF 港市组合券赎回现金替代)</td></tr><tr><td>JGJSZH</td><td>结算账号</td><td>结算账号</td></tr><tr><td>JGBFZH</td><td>备付金账户</td><td>备付金账户</td></tr><tr><td>JGSJLX</td><td>‘01’</td><td>‘01’</td></tr><tr><td>JGYWLB</td><td>‘SGDZ’</td><td>‘SHDZ’</td></tr><tr><td>JGZQDM</td><td>ETF 代码</td><td>ETF 代码</td></tr><tr><td>JGJYDY</td><td>交易单元</td><td>交易单元</td></tr><tr><td>JGTGDY</td><td>托管单元</td><td>托管单元</td></tr><tr><td>JGZQZH</td><td>证券账户</td><td>证券账户</td></tr><tr><td>JGDBHB</td><td>订单编号</td><td>订单编号</td></tr><tr><td>JGYYB</td><td></td><td></td></tr><tr><td>JGZXBH</td><td></td><td>执行编号\n(仅跨市场ETF港市组合券赎回现金替代填写)</td></tr><tr><td>JGYWLSH</td><td>业务流水号</td><td>业务流水号</td></tr><tr><td>JGCJSL</td><td></td><td></td></tr><tr><td>JGQSSL</td><td></td><td></td></tr><tr><td>JGJSSL</td><td></td><td></td></tr><tr><td>JGCJJG</td><td></td><td></td></tr><tr><td>JGQSJJG</td><td></td><td></td></tr><tr><td>JGXYJJ</td><td></td><td></td></tr><tr><td>JGPCBS</td><td></td><td></td></tr><tr><td>JGZQLB</td><td>‘EF’</td><td>‘EF’</td></tr><tr><td>JGZQZL</td><td>证券子类别</td><td>证券子类别</td></tr><tr><td>JGGFXZ</td><td></td><td></td></tr><tr><td>JGLTLX</td><td></td><td></td></tr><tr><td>JGJSFS</td><td>‘Z’</td><td>‘Z’</td></tr><tr><td>JGHBDH</td><td>货币代号</td><td>货币代号</td></tr><tr><td>JGQSBJ</td><td>负数,应付申购现金替代</td><td>正数,应收赎回现金替代</td></tr><tr><td>JGYHS</td><td></td><td></td></tr><tr><td>JGJYJSF</td><td></td><td></td></tr><tr><td>JGJGGF</td><td></td><td></td></tr><tr><td>JGGHF</td><td></td><td></td></tr><tr><td>JGJSF</td><td></td><td></td></tr><tr><td>JGSXF</td><td></td><td></td></tr><tr><td>JGQSYJ</td><td></td><td></td></tr><tr><td>JGQTFY</td><td></td><td></td></tr><tr><td>JGZJJJE</td><td></td><td></td></tr><tr><td>JGSFJE</td><td>负数,应付申购现金替代</td><td>正数,应收赎回现金替代</td></tr><tr><td>JGJSBZ</td><td>‘Y’或‘N’</td><td>‘Y’或‘N’</td></tr><tr><td>JGZYDH</td><td>若JGJSBZ为‘N’,则是错误代号</td><td>若JGJSBZ为‘N’,则是错误代号</td></tr><tr><td>JGCJRQ</td><td>成交日期</td><td>成交日期</td></tr><tr><td>JGQSRQ</td><td>T-1日</td><td>T-1日</td></tr><tr><td>JGJSRQ</td><td>T日</td><td>T日</td></tr><tr><td>JGFSRQ</td><td>T日</td><td>T日</td></tr><tr><td>JGQTRQ</td><td></td><td></td></tr><tr><td>JGSCDM</td><td></td><td></td></tr><tr><td>JGJYFS</td><td>‘05’</td><td>‘05’或‘03’</td></tr><tr><td>JGZQDM2</td><td>组合券代码（如基金公司不提供，则为空）</td><td>组合券代码（如基金公司不提供，则为空）</td></tr><tr><td>JGTGDY2</td><td></td><td></td></tr><tr><td>JGDDBH2</td><td></td><td></td></tr><tr><td>JGFJSM</td><td></td><td></td></tr><tr><td>JGBYBZ</td><td></td><td></td></tr></table>",
+        "bbox": [
+            221,
+            562,
+            774,
+            904
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所：CHINASECURITIESCO.,LTD.",
+        "bbox": [
+            161,
+            54,
+            236,
+            74
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "#",
+        "bbox": [
+            240,
+            52,
+            267,
+            72
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            413,
+            59,
+            576,
+            78
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "第6页共10页",
+        "bbox": [
+            712,
+            65,
+            838,
+            78
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            139,
+            913,
+            248,
+            927
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            682,
+            928
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            727,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            223,
+            92,
+            774,
+            885
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所：SHENZHENG STOCK EXCHANGE ",
+        "bbox": [
+            161,
+            55,
+            236,
+            74
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "#",
+        "bbox": [
+            240,
+            52,
+            268,
+            72
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            415,
+            59,
+            576,
+            78
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "第7页共10页",
+        "bbox": [
+            712,
+            65,
+            838,
+            78
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            141,
+            913,
+            248,
+            927
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            682,
+            928
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            729,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            221,
+            92,
+            776,
+            234
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "4.4 资金清算汇总库SJSQS.DBF",
+        "text_level": 1,
+        "bbox": [
+            184,
+            241,
+            500,
+            259
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "（1）SJSQS.DBF中，涉及跨市场ETF（含跨深沪港股票ETF）申赎的业务类别含义如下表：",
+        "bbox": [
+            137,
+            268,
+            855,
+            312
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/01f0e1caf5c24e34a52160fd75ae7483ee9852b30e353879dd46bc99d0549828.jpg",
+        "table_caption": [
+            "SJSQS.DBF业务含义表"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>业务类别</td><td>相应业务含义</td><td>说明</td></tr><tr><td>SGSZ</td><td>ETF 实物申购现金替代</td><td>QSZQDM为 ETF 证券代码（单市场 ETF、实物债券 ETF、跨市场 ETF）。成交日期=清算日期，交收日期=清算日期+1。</td></tr><tr><td>SHSZ</td><td>ETF 实物赎回现金替代</td><td>QSZQDM为 ETF 证券代码（单市场 ETF、实物债券 ETF、跨市场 ETF）。成交日期=清算日期，交收日期=清算日期+1。</td></tr><tr><td>SHDZ</td><td>ETF 实物赎回现金替代-代收代付（包括通过中国结算总部赎回的 ETF 现金替代以及跨市场 ETF 港市组合券 赎回现金替代）</td><td>对于代收代付（跨市场 ETF 实物赎回），成交日期为空，清算日期为当日，交收日期=清算日期+1；对于含代收代付，按“证券”+“托管单元”，分买入和卖出各下发一条记录。买入记录中的卖出金额为0，卖出记录中的买入金额为0。</td></tr><tr><td>SGFY</td><td>ETF 申购税费、组合券过户费</td><td>QSZQDM为 ETF 证券代码。成交日期=清算日期-1，交收日期=清算日期+1。本记录为上个交易日申购业务相关的费用。</td></tr><tr><td>SHFY</td><td>ETF 赎回税费、组合券过户费</td><td>QSZQDM为 ETF 证券代码。成交日期=清算日期-1，交收日期=清算日期+1。本记录为上个交易日赎回业务相关的费用。</td></tr><tr><td>EFXC</td><td>ETF 申购赎回现金差额</td><td>QSZQDM为 ETF 证券代码。成交日期为空，清算日期为当日，交收日期=清算日期+1。买入金额为补款金额，卖出金额为退款金额。对于某“证券”+“托管单元”，分买入和卖出各下发一条记录。买入记录中的卖出金额为0，卖出记录中的买入金额为0。</td></tr><tr><td>EFTB</td><td>ETF 申购赎回现金</td><td>QSZQDM为 ETF 证券代码。</td></tr><tr><td></td><td>替代多退少补</td><td>成交日期为空，清算日期为当日，交收日期=清算日期+1。买入金额为补款金额，卖出金额表示退款金额。对于某“证券”+“托管单元”，分买入和卖出各下发一条记录。买入记录中的卖出金额为0，卖出记录中的买入金额为0。</td></tr></table>",
+        "bbox": [
+            139,
+            344,
+            858,
+            908
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所：CHINASECURITIESCO.,LTD",
+        "bbox": [
+            161,
+            54,
+            236,
+            74
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "#",
+        "bbox": [
+            240,
+            52,
+            267,
+            73
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            413,
+            59,
+            576,
+            78
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "第8页共10页",
+        "bbox": [
+            712,
+            65,
+            838,
+            78
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            139,
+            913,
+            250,
+            927
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            685,
+            928
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            727,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            139,
+            89,
+            858,
+            250
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "4.5 资金变动库SJSZJ.DBF",
+        "text_level": 1,
+        "bbox": [
+            184,
+            296,
+            457,
+            313
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "（1）SJSZJ.DBF中，涉及跨市场ETF（含跨深沪港股票ETF）申赎的业务类别含义如下表：",
+        "bbox": [
+            137,
+            323,
+            855,
+            367
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/3995399c8cdfba165dd8d1daf556ea6faee90273c1a306b7b45f862a8b314d74.jpg",
+        "table_caption": [
+            "SJSZJ.DBF中业务类别含义表"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>ZJYWLB</td><td>业务类别含义</td><td>ZJZQDM</td></tr><tr><td>SGFY</td><td>ETF 申购税费、组合券过户费</td><td>证券代码</td></tr><tr><td>SGSZ</td><td>ETF 申购实物现金替代</td><td>证券代码</td></tr><tr><td>SHFY</td><td>ETF 赎回税费、组合券过户费</td><td>证券代码</td></tr><tr><td>SHSZ</td><td>ETF 实物赎回现金替代</td><td>证券代码</td></tr><tr><td>SHDZ</td><td>ETF 实物赎回现金替代-代收代付(包括通过中国结算总部赎回的 ETF 现金替代以及跨市场 ETF 港市组合券 赎回现金替代)</td><td>证券代码</td></tr><tr><td>EFTB</td><td>ETF 申购赎回现金替代多退少补</td><td>证券代码</td></tr><tr><td>EFXC</td><td>ETF 申购赎回现金差额</td><td>证券代码</td></tr></table>",
+        "bbox": [
+            189,
+            400,
+            808,
+            695
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "五、 跨深沪港ETF申赎模式优化上线切换指引",
+        "text_level": 1,
+        "bbox": [
+            161,
+            697,
+            697,
+            717
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "相关基金管理人需要按如下指引，在跨深沪港股票ETF申赎模式优化项目上线启用日（S日，XX月XX日）进行系统切换，并通知相关PD券商、结算参与人一同做好系统切换工作。",
+        "bbox": [
+            136,
+            728,
+            847,
+            802
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.1 交易数据接口切换调整",
+        "text_level": 1,
+        "bbox": [
+            183,
+            835,
+            450,
+            853
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "拟切换ETF的证券类别由跨境ETF（类别代码：16）调整为跨市场股票ETF",
+        "bbox": [
+            173,
+            864,
+            858,
+            879
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "证券代码：601328证券简称：深发展公告编号：临2017-049 深圳证券交易所\n ",
+        "bbox": [
+            161,
+            52,
+            268,
+            74
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            413,
+            59,
+            576,
+            77
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "第9页共10页",
+        "bbox": [
+            712,
+            65,
+            838,
+            78
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            139,
+            913,
+            248,
+            927
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            682,
+            928
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            727,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "（类别代码：15）。",
+        "bbox": [
+            147,
+            102,
+            302,
+            118
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.2 结算数据接口切换调整",
+        "text_level": 1,
+        "bbox": [
+            184,
+            154,
+            452,
+            171
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "1）跨深沪港ETF证券代码与证券类别（子类别）对应关系调整",
+        "bbox": [
+            174,
+            181,
+            739,
+            199
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "拟切换ETF的证券类别代码仍为EF；证券子类别由跨境ETF（证券子类别：2）调整为跨市场ETF（证券子类别：3)。证券代码与证券类别（及子类别）的对应关系，详见SJSGB.DBF中  $\\mathrm{GBLB} =$  ‘ZQ’的相关记录。",
+        "bbox": [
+            136,
+            208,
+            857,
+            281
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "2）跨深沪港ETF在途业务数据切换",
+        "bbox": [
+            173,
+            291,
+            500,
+            307
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "拟切换ETF的约定购回业务（业务类别为YDCS、YDDQ)，在项目上线启用日前一交易日（S-1日）的清算明细数据接口SJSMX1.DBF中，其证券子类别字段（MXZQZL）填写为2；对应的交收结果在项目上线启用日（S日）的交收结果明细接口SJSJG.DBF中证券子类别字段（JGZQZL）会调整成为3。",
+        "bbox": [
+            137,
+            318,
+            858,
+            418
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.3 业务暂停事项",
+        "text_level": 1,
+        "bbox": [
+            184,
+            426,
+            371,
+            445
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "为便于市场切换处理，拟切换的ETF将在项目上线启用日前一交易日(S-1日，XX月XX日）暂停一个交易日的管理人代收代付业务的申报，代收代付业务包括现金差额、多退少补、赎回的现金替代。",
+        "bbox": [
+            136,
+            455,
+            858,
+            527
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "对于业务启用日前达成的申赎，ETF 管理人可与市场参与各方在场外了结对应的代收代付业务，或在项目上线后通过代收代付接口（接口业务类别为 LF、LG、LH）在 D-COM 上进行申报，请市场参与各方妥善做好相关衔接工作。",
+        "bbox": [
+            136,
+            537,
+            858,
+            609
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "六、联系方式",
+        "text_level": 1,
+        "bbox": [
+            161,
+            615,
+            371,
+            633
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "业务：0755-88668839（交易）",
+        "bbox": [
+            174,
+            646,
+            438,
+            662
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "0755-21899269（结算）",
+        "bbox": [
+            233,
+            674,
+            436,
+            689
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "技术：0755-88668728（交易）",
+        "bbox": [
+            174,
+            701,
+            436,
+            715
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Email: ssegcb@szse.cn",
+        "bbox": [
+            233,
+            728,
+            468,
+            746
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "0755-25946080（结算）",
+        "bbox": [
+            233,
+            755,
+            436,
+            771
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Email: szjsb@chinaclear.com.cn",
+        "bbox": [
+            236,
+            784,
+            581,
+            801
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "深圳证券交易所\n股票代码：002168股票简称：ST鑫通公告编号：2023-049",
+        "bbox": [
+            159,
+            52,
+            268,
+            74
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "工程技术标准",
+        "bbox": [
+            413,
+            59,
+            576,
+            79
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "第10页共10页",
+        "bbox": [
+            712,
+            65,
+            848,
+            78
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "深圳证券交易所",
+        "bbox": [
+            139,
+            913,
+            250,
+            927
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "跨深沪港股票ETF业务之券商技术系统变更指南",
+        "bbox": [
+            300,
+            913,
+            685,
+            928
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "SZSE999999-TG28",
+        "bbox": [
+            727,
+            914,
+            853,
+            926
+        ],
+        "page_idx": 12
+    }
+]
