@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mineru PDF转Markdown转换器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mineru PDF转Markdown转换器</h1>
+            <p>使用Mineru VLLM Server将PDF文件转换为Markdown格式</p>
+        </header>
+
+        <!-- 服务器配置区域 -->
+        <div class="config-section">
+            <h2>服务器配置</h2>
+            <div class="config-form">
+                <div class="form-group">
+                    <label for="serverUrl">Mineru Server地址:</label>
+                    <input type="text" id="serverUrl" placeholder="http://172.27.213.31:30000" value="http://172.27.213.31:30000">
+                    <button id="testConnection" class="btn btn-secondary">测试连接</button>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="method">转换方法:</label>
+                        <select id="method">
+                            <option value="ocr" selected>OCR模式</option>
+                            <option value="txt">文本模式</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="tableFormat">表格格式:</label>
+                        <select id="tableFormat">
+                            <option value="markdown" selected>Markdown表格</option>
+                            <option value="html">HTML表格</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="language">PDF语言:</label>
+                        <select id="language">
+                            <option value="">自动检测</option>
+                            <option value="ch">中文</option>
+                            <option value="ch_server">中文服务器版</option>
+                            <option value="ch_lite">中文轻量版</option>
+                            <option value="en">英文</option>
+                            <option value="korean">韩文</option>
+                            <option value="japan">日文</option>
+                            <option value="chinese_cht">繁体中文</option>
+                            <option value="ta">泰米尔语</option>
+                            <option value="te">泰卢固语</option>
+                            <option value="ka">卡纳达语</option>
+                            <option value="th">泰语</option>
+                            <option value="el">希腊语</option>
+                            <option value="latin">拉丁语</option>
+                            <option value="arabic">阿拉伯语</option>
+                            <option value="east_slavic">东斯拉夫语</option>
+                            <option value="cyrillic">西里尔语</option>
+                            <option value="devanagari">天城文</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="formula">公式解析:</label>
+                        <select id="formula">
+                            <option value="true" selected>启用</option>
+                            <option value="false">禁用</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="table">表格解析:</label>
+                        <select id="table">
+                            <option value="true" selected>启用</option>
+                            <option value="false">禁用</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 文件上传区域 -->
+        <div class="upload-section">
+            <h2>上传PDF文件</h2>
+            <div id="dropZone" class="drop-zone">
+                <div class="drop-zone-content">
+                    <i class="upload-icon">📁</i>
+                    <p>拖拽PDF文件到此处，或点击选择文件</p>
+                    <input type="file" id="fileInput" accept=".pdf" multiple>
+                    <label for="fileInput" class="btn btn-primary">选择文件</label>
+                </div>
+            </div>
+            <div id="fileList" class="file-list"></div>
+        </div>
+
+        <!-- 转换进度区域 -->
+        <div id="progressSection" class="progress-section" style="display: none;">
+            <h2>转换进度</h2>
+            <div id="progressContainer" class="progress-container">
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <div id="progressText" class="progress-text">准备开始...</div>
+            </div>
+            <div id="logContainer" class="log-container">
+                <div id="logContent" class="log-content"></div>
+            </div>
+        </div>
+
+        <!-- 转换结果区域 -->
+        <div class="results-section">
+            <h2>转换结果</h2>
+            <div id="resultsList" class="results-list">
+                <p id="noResults" class="no-results">暂无转换结果</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 模态对话框 -->
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">提示</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p id="modalMessage"></p>
+            </div>
+            <div class="modal-footer">
+                <button id="modalConfirm" class="btn btn-primary">确定</button>
+                <button id="modalCancel" class="btn btn-secondary">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

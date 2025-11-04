@@ -1,0 +1,6 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+requests
+uv==0.4.0
+# mineru 需要Python 3.10+，这里暂时注释掉，将在Dockerfile中处理
+# mineru==0.1.0
